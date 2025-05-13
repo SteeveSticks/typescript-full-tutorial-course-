@@ -18,7 +18,7 @@ let loginUser = (name: string, email: string, isPaid: boolean = true) => {};
 
 let myValue = addTwo(5);
 getUpper("4");
-signUpUser("stephen", "stephenadebanjo86@gmail.com", 3, true);
+signUpUser("stephen", "test@test.com", 3, true);
 loginUser("h", "h@h.com");
 
 // function getValue(myVal: number): Boolean{
