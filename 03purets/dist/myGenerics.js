@@ -27,3 +27,21 @@ const getMoreSearchProduct = (products) => {
     const myIndex = 4;
     return products[myIndex];
 };
+function anotherFuNction(valueOne, valueTwo) {
+    return {
+        valueOne,
+        valueTwo,
+    };
+}
+const exam = {
+    name: "ade",
+    type: "common",
+};
+class Sellable {
+    constructor() {
+        this.cart = [];
+    }
+    addToCart(products) {
+        this.cart.push(products);
+    }
+}
