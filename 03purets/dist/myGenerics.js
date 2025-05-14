@@ -15,3 +15,15 @@ function identityThree(val) {
 function identityFour(val) {
     return val;
 }
+// You can use generics with an interface
+// identityFour<Bottle>({});
+function getSearchProduct(products) {
+    // do some database operations
+    const myIndex = 3;
+    return products[myIndex];
+}
+const getMoreSearchProduct = (products) => {
+    // do some database operations
+    const myIndex = 4;
+    return products[myIndex];
+};
